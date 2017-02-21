@@ -108,7 +108,7 @@ public class City implements Serializable {
 
     @Override
     public String toString() {
-        return "entities.City[ postalcode=" + postalcode + " ]";
+        return postalcode + " " + name;
     }
     
 }
